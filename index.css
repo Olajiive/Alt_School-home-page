@@ -1,0 +1,696 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: static;
+    left: 100;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.Alt_School {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:15px auto;
+    padding-top: 10px;
+}
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+
+    
+    
+}
+nav {
+    margin-right: 60px;
+    float: right;
+}
+.Alt {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-left: 25px;
+
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.home {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(138, 115, 115, 0.1);
+    color: black;
+    padding: 12px;
+    
+
+}
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background: black;
+    margin-left: 20px;
+    font-size: 12px;
+    padding: 15px;
+    
+}
+.login:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.container {
+    background-color: rgba(253, 170, 170, 0.12);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 400px;
+    padding-top: 150px;
+    
+
+
+    
+}
+@media screen and (max-width:600px) {
+    .container {
+        padding-bottom: 150px;
+        width: 100%;
+    }
+}
+.About {
+    font-size: 45px;
+    line-height: 75px;
+    
+  
+}
+.degree {
+    font-size: 22px ;
+    line-height: 70px;
+    
+}
+.explore {
+    color: white;
+    font-weight: bold;  
+}
+div .explore {
+    background-color: black;
+    width: 210px;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+    
+
+}
+
+.affiliation {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.affiliation p {
+    margin-top: 80px;
+} 
+.affiliation img {
+    margin-top:15px ;
+    margin-bottom: 50px;
+    height: 60px;
+    
+}
+.FAQ {
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#container {
+    width: 100%;
+}
+.container1 {
+    width: 90%;
+    margin: auto;
+}
+.container1 img {
+    width: 100%;
+}
+ @media screen and (orientation: portrait)  {
+    #container {
+        width: 100%;
+    }
+ }
+
+.description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 150px;
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+}
+@media screen and (max-width:800px) {
+    .description {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 70px;
+        font-size: 18px;
+    }
+    .vision {
+        
+        width: 100%;
+    }
+    .curriculum {
+        width: 100%;
+        margin-top: 18px;
+    }
+    .more_info a {
+        width: 100%;
+       
+    }
+}
+   
+.vision {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+.curriculum {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.918);
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-top: 15px;
+}
+
+.more_info a {
+    background-color: black;
+    color: white;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 15px 40px;
+
+}
+#container2 {
+    background-color: black;
+    height: 500px;
+    
+    box-sizing: border-box;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.ovf-cont {
+    overflow-y:scroll;
+    height: 400px;
+    margin: 0 auto;
+}
+.image3 img{
+    
+    height: 230px;
+    width:230px;
+    border-radius: 230px;
+    
+}
+@media screen and (max-width:750px) {
+    #container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    
+        margin: auto;
+    }
+    .container2ai {
+        margin: auto;
+    }
+    .shimage_cont  {
+        margin: auto;
+        font-size: 15px;
+    }
+    .shape {
+        width: 60px;
+        height: 180px;
+        ;
+    }
+    .image3 img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-top: -65px;
+    
+    }
+    .shimage {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.shape {
+    background-color: rgb(252, 223, 228);
+    width: 90px;
+    height: 180px;
+    margin-right: 10px;
+    transform: rotate(32deg);
+    z-index: -10;
+
+
+}
+.shimage_cont {
+    width: 500px;
+    height: 410px;
+    margin: 0 auto;
+
+}
+.shimage {
+    grid-row: 2/10;
+    grid-column: 1/2;
+    display: flex;
+    width: 70%;
+    margin: 70px auto;
+}
+.shimage_cont p {
+    font-size: 19px;
+}
+
+.over-cont::-webkit-scrollbar{
+     display: none;
+}
+.container2ai {
+    background-color: rgb(86, 110, 219);
+    width: 220px;
+
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+  
+
+}
+#container2 a {
+    color: white;
+}
+.nav1 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-top: 43px;
+    margin-bottom: 70px;
+}
+ .nav2{
+    grid-row: 6/7;
+    grid-column: 2/3;
+    margin-top: 43px;
+    margin-bottom: 70px;
+}
+.nav3 {
+    grid-row: 9/10;
+    grid-column: 2/3;
+    margin-top: 43px;
+    margin-bottom: 70px;
+}
+div .small1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 18px;
+    line-height: 25px;
+}
+div .bold1 {
+    grid-column: 2/3;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+div .small2 {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    font-size: 18px;
+    line-height: 25px;
+    
+}
+div .bold2 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    font-size: 35px;
+    font-weight: bold;
+}
+div .small3 {
+    grid-row: 8/9;
+    grid-column: 2/3;
+    font-size: 18px;
+    line-height: 25px;
+}
+div .bold3 {
+    grid-row: 7/8;
+    grid-column: 2/3;
+    font-size: 35px;
+    font-weight: bold;
+}
+.find {
+    font-weight: bold;
+    margin-top: 60px ;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.schools{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 1300px){
+    .findschool_cont {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    } 
+    .TBENG {
+        width: 100%;
+        
+        
+    }  
+    .TBPRO {
+        width: 100%;
+    }
+         
+}
+div.findschools {
+    width: 98%;
+    margin: auto;
+    
+    
+}
+.findschool_cont {
+     width: 97%;
+     margin: auto;
+     display: flex;
+    
+     
+}
+.TBENG {
+    width: 50%;
+    margin-right: 25px;
+    
+}
+.TBPRO {
+    width: 50%;
+    margin-left: 25px;
+    
+    
+}
+div .topENG {
+    
+    margin-top: 17px;
+    margin-left: 17px;
+    border: 3px solid black;
+    background-color: white;
+    width: 590px;
+    height: 590px;
+} 
+div .backENG{
+   background-color:  rgba(253, 170, 170, 0.12);
+   width: 520px;
+   border: 2px solid black;
+   height: 600px;
+
+   
+} 
+
+div .topPRO {
+    
+    margin-top: 17px;
+    margin-left: 17px;
+    background-color: white;
+    width: 590px;
+    height: 590px;
+    border: 3px solid black;
+
+}
+div .backPRO {
+   background-color: rgba(253, 170, 170, 0.527);
+   width:520px;
+   border: 2px solid black; 
+   height: 600px;
+
+   
+}
+div .backimg1 {
+   background-color: rgba(253, 170, 170, 0.12); ;
+
+}
+div .backimg2 {
+   background-color: rgba(253, 170, 170, 0.527);
+
+}
+.title1 {
+   font-size: 22px;
+   padding: 30px 12px 35px;
+   color: rgb(0, 0, 0);
+}
+.details1 {
+   word-spacing: 4px;
+   font-size: 17px;
+   padding-left: 12px;
+   padding-right: 12px;
+   line-height: 25px;
+   color: rgba(0, 0, 0, 0.966);
+}
+.readiness {
+   padding-top: 30px;
+   padding-left: 12px;
+}
+.link {
+   padding-top: 60px;
+   padding-left: 30px;
+  
+}
+.title2 {
+   font-size: 22px;
+   padding: 30px 12px 35px;
+   color: rgb(0, 0, 0);
+}
+.details2 {
+   padding-left: 12px;
+   color: rgba(0, 0, 0, 0.966);
+   line-height: 25px;
+}   
+
+.steps {
+   background-color: black;
+   height: 680px;  
+   color: white;
+   margin-top: 150px;
+   box-sizing: border-box;
+   padding-left: 150px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.step00 {
+    margin: 0 auto;
+}
+.step01, .step02, .step03 {
+    display: flex;
+    padding-top: 90px
+}
+.grad {
+    
+    background-color:rgba(243, 177, 177, 0.267) ;
+    width: 100%
+}
+.brainstorm_cont {
+    width: 95% ;
+    margin: auto;
+    position: relative;
+    
+
+}
+.brainstorm img {
+    width: 50%;
+    padding-top:70px;
+    padding-bottom: 70px;
+    
+
+}
+.hire_cont{
+    position: relative;
+    background-color: papayawhip;
+    width: 47%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: right;
+    margin-right: 122px;
+    margin-top: -450px;
+    z-index: 20;
+}
+.hire {
+    width: 85%;
+    margin: auto;
+}
+.prepare {
+    font-size: 30px;
+
+}
+.program {
+    font-size: 18px;
+    padding-top: 5px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.774);
+}
+.hirelink {
+    background-color: black;
+    width: 200px;
+    height: 45px;
+    margin-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+.hirelink a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+.features img {
+    height: 120px;
+}
+.collaboration-i {
+    width: 95%;
+    height: 540px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 500px;
+    box-sizing: border-box;
+}    
+.collaboration-ii {
+    background-color: black;
+    --main-color: white;
+    --big-font-size: 45px;
+    --small-font-size: 15px;
+    --margin-left: 70px;
+    --h1-margin-top: 120px;
+    --main-margin-top: 50px;
+    
+}
+.collaboration-ii h1 {
+    color: var(--main-color);
+    font-size: var(--big-font-size);
+    margin-left: var(--margin-left);
+    margin-top: var(--h1-margin-top);
+
+}
+.collaboration-ii p {
+    font-size: var(--medim-font-size);
+    color: rgba(255, 255, 255, 0.904);
+    font-size: var(--small-font-size);
+    font-weight: bold;
+    margin-left: var(--margin-left);
+    margin-top: var(--main-margin-top);
+    line-height: 30px;
+}
+
+.smiling_man {
+    background-image: url('https://thealtschool.com/wp-content/uploads/2022/02/Mask-Group.png');
+    background-size: cover;
+}
+.learn_more {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 40px;
+    width: 160px;
+    margin-left: var(--margin-left);
+    margin-top: var(--main-margin-top);
+   
+}
+.learn_more a {
+    font-weight: bold;
+    font-size: var(--small-font-size);
+}
+#footer {
+    width: 100%;
+    margin-top: 100px;
+    height: 360px;
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+
+
+}
+.footer {
+    width: 82%;
+    margin: auto;
+    padding-top: 70px;
+    box-sizing: border-box;
+    
+}
+.footer_a {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    --footer-h1-font-size:18px;
+    --footer-body-font-size: 14px;
+    --footer-line-height: 30px;
+    --footer-body-color: grey;
+    --footer-font-weight: bold;
+
+}
+.brands {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.blogo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 12px;
+    color: rgb(18, 18, 56);
+    margin-right: 5px ;
+}
+.phone_no {
+    margin-top: 20px;
+    color: rgb(111, 109, 138);
+}
+.footerh1 {
+     font-weight: var(--footer-font-weight);
+     font-size: var(--footer-h1-font-size);
+     margin-bottom: 20px;
+}
+.footerbody {
+      font-size: var(--footer-body-font-size);
+      color: var(--footer-body-color);
+      line-height: var(--footer-line-height);
+      font-weight: var(--footer-h1-font-weight);
+}
+.dot p {
+    margin-top: 20px;
+    color: gray;
+    font-size: 14px;
+}
+.border_b {
+    border-bottom: 1px dotted white;
+}
